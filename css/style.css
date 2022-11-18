@@ -1,3 +1,54 @@
-body{
-  color: blue;
-}
+@import "./global/global.css";
+@import "./ultilidades/tipografia.css";
+@import "./ultilidades/cores.css";
+@import "./ultilidades/animacao.css";
+
+
+/* header,footer */
+@import "./global/header.css";
+@import "./global/footer.css";
+
+
+/* ultilidades */
+@import "./ultilidades/componentes.css";
+@import "./ultilidades/formularios.css";
+
+
+/* home */
+@import "./home/introducao.css";
+@import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimento.css";
+
+/* bicicletas lista */
+@import "./bicicletas/bicicletas-lista.css";
+@import "./bicicletas/bicicletas.css";
+
+/* Bicicletas */
+@import "./bicicleta/bicicleta.css";
+@import "./bicicleta/seguro.css";
+
+
+/* seguros */
+@import "./seguros/seguros.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
+
+/* contato */
+@import "./contato/contato.css";
+@import "./contato/lojas.css";
+
+/* orçamento */
+@import "./orcamento/orcamento.css";
+
+/* termos */
+@import "./termos/termos.css";
+
+
+
+
+
+
+
+
+
